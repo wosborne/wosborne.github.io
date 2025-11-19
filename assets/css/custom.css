@@ -1,0 +1,30 @@
+body {
+  background-color: #f13434 !important;
+}
+
+.skip-navigation {
+  background-color: #f13434 !important;
+}
+
+.site-masthead h2 {
+  color: #644b4b !important;
+}
+
+.post-date {
+  color: #644b4b !important;
+}
+#search__input::-webkit-input-placeholder {
+  color: #644b4b !important;
+}
+
+#search__input::-moz-placeholder {
+  color: #644b4b !important;
+}
+
+#search__input:-ms-input-placeholder {
+  color: #644b4b !important;
+}
+
+#search__input:-moz-placeholder {
+  color: #644b4b !important;
+}
