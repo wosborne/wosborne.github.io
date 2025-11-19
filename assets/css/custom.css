@@ -1,5 +1,6 @@
 body {
-  background-color: #f13434 !important;
+  background-color: #fefaf8 !important;
+  color: #f13434 !important;
 }
 
 .skip-navigation {
@@ -13,6 +14,12 @@ body {
 .post-date {
   color: #644b4b !important;
 }
+
+.post-content {
+  color: #0b0404 !important;
+}
+
+
 #search__input::-webkit-input-placeholder {
   color: #644b4b !important;
 }
