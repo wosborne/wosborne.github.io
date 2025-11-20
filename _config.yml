@@ -21,16 +21,34 @@
 title: Ruby Railed
 email: hello@notallonesandzeros.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Web development freelancing journey
+  A freelance web development journey
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rubyrailed.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wosborne
+
+# SEO and Social
+author:
+  name: William Osborne
+  email: hello@notallonesandzeros.com
+  twitter: mrwillos
+  
+social:
+  name: William Osborne
+  links:
+    - https://github.com/wosborne
+    - https://twitter.com/mrwillos
+    
+twitter:
+  username: mrwillos
+  card: summary
 
 # Build settings
 theme: hitchens-theme
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Pagination settings
 paginate: 20
